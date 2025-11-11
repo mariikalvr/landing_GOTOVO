@@ -1,0 +1,1545 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Готово</title>
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/fancybox/fancybox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							dark: "#1F201A",
+							"gray": {
+								DEFAULT: "#9B9C99",
+								light: "#D9D9D9"
+							},
+							light_white: "#EDF0F7",
+							additional: "#323230",
+							secondary: "#7B6B38",
+                            beige: "#DFD9B9"
+						},
+						screens: {
+							xs: "576px",
+							sm: "768px",
+							md: "992px",
+							lg: "1200px",
+							xl: "1400px",
+							"2xl": "1536px",
+						},
+						fontSize: {
+							xs: ["12px", "14px"],
+							sm: ["14px", "100%"],
+							base: ["16px", "100%"],
+							lg: ["18px", "100%"],
+							xl: ["20px", "100%"],
+							additional: ["22px", "100%"],
+							xxl: ["26px", "100%"],
+							headline: ["30px", "42px"],
+							subtitle: ["32px", "100%"],
+							title: ["60px", "100%"]
+						},
+						backgroundImage: {
+							"gradient": "linear-gradient(210.33deg, #1F201A 53.21%, #7B6B38 89.97%)",
+							"gradient-dark": "linear-gradient(180deg, #00000000 0%, #00000099 100%)",
+							"advantage-pattern": "linear-gradient(180deg, #00000075 10%, transparent 90%), url('assets/images/image-advantages.jpg')",
+							"advantage-pattern__sm": "linear-gradient(180deg, #00000075 10%, transparent 90%), url('assets/images/image-advantages2.jpg')"
+						},
+						container: {
+							center: true,
+							padding: {
+								DEFAULT: "16px",
+								sm: "16px",
+								md: "16px",
+								lg: "16px"
+							}
+						}
+					}
+				}
+			};
+    </script>
+</head>
+<body>
+<header class="container absolute z-10 w-full right-0 left-0 pt-8">
+    <div class="flex items-start justify-between">
+        <div class="grid grid-cols-[3fr_2fr] items-center justify-between">
+            <img src="assets/images/logo.svg" alt="">
+            <div class="flex items-center gap-6">
+                <a href="mailto:gotovosupport@mail.com" class="flex items-center gap-1 text-additional text-sm">
+                    <img src="assets/icons/envelope.svg" alt="">
+                    <p>gotovosupport@mail.com</p>
+                </a>
+                <a href="tel:+79085014005" class="flex items-center gap-1 text-additional text-sm">
+                    <img src="assets/icons/phone.svg" alt="">
+                    <p>+7 (908) 501-40-05</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-6">
+            <div class="bg-white flex items-center rounded-full px-4 py-3 gap-3">
+                <a href="#">
+                    <img src="assets/icons/whatsappLogo.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="assets/icons/telegramLogo.svg" alt="">
+                </a>
+            </div>
+            <div class="border border-dark rounded-full flex items-center">
+                <div class="bg-dark rounded-full px-4 py-3 text-white text-base shrink-0">
+                    Заказать звонок
+                </div>
+                <div class="h-full w-full min-w-[32px] flex items-center justify-center">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_20_221)">
+                            <path d="M7.75 3.75L14 10L7.75 16.25" stroke="#1F201A" stroke-width="1.5"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_20_221">
+                                <rect width="20" height="20" fill="white" transform="translate(0.25)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</header>
+<main>
+    <section class="bg-[url('assets/images/main-bg2.png')] bg-cover bg-no-repeat h-dvh flex flex-col justify-center ">
+        <!--        <img src="assets/images/main-bg2.png" alt="" class="w-full">-->
+        <div class="container pt-[110px] pb-[56px]">
+            <div class="flex justify-between items-center">
+                <div class="flex flex-col gap-2 text-dark text-xxl">
+                    <p>
+                        Ваш ремонт не готов?
+                    </p>
+                    <p>
+                        Тогда мы идем к вам!
+                    </p>
+                </div>
+                <div class="flex gap-6">
+                    <div class="bg-gradient rounded-[36px] max-w-[466px] w-full relative">
+                        <div class="m-2 p-4 flex flex-col gap-8 border border-gray-light/50 rounded-[28px]">
+                            <svg width="100%" height="100%" viewBox="0 0 418 469" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                                <defs>
+                                    <clipPath id="theClippingPathBanner" clipPathUnits="objectBoundingBox">
+                                        <path d="M1,0.644 C1,0.66,0.993,0.675,0.98,0.686 L0.648,0.983 C0.635,0.994,0.618,1,0.601,1 H0.067 C0.03,1,0,0.973,0,0.94 V0.187 C0,0.171,0.007,0.156,0.02,0.145 L0.162,0.017 C0.175,0.006,0.192,0,0.21,0 H0.933 C0.97,0,1,0.027,1,0.06 V0.644">
+                                        </path>
+                                    </clipPath>
+                                </defs>
+                                <image xlink:href="assets/images/action.jpg" height="100%" width="100%"
+                                       clip-path="url(#theClippingPathBanner)"
+                                       preserveAspectRatio="xMidYMid slice"></image>
+                            </svg>
+
+                            <img src="assets/images/present.png" alt=""
+                                 class="absolute w-full max-w-[173px] top-[57%] -left-[100px]">
+                            <h2 class="text-white font-bold text-subtitle max-w-[307px] w-full self-end">
+                                Только этой осенью получи от нас <span class="italic">кухню в подарок</span>
+                            </h2>
+
+                            <div class="rounded-full flex items-center bg-secondary w-max">
+                                <div class="bg-white rounded-full px-8 py-5 text-dark text-lg shrink-0">
+                                    Рассчитать стоимость ремонта
+                                </div>
+                                <div class="h-full w-full min-w-[40px] flex items-center justify-center">
+                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_20_221)">
+                                            <path d="M7.75 3.75L14 10L7.75 16.25" stroke="#FFFFFF" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_20_221">
+                                                <rect width="20" height="20" fill="white" transform="translate(0.25)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="flex flex-col gap-2 text-sm items-end">
+                        <a href="#"
+                           class="bg-light_white rounded-full p-3 flex items-center gap-1 w-max min-h-[42px]">
+                            <span class="text-gray">01</span>
+                            <span class="text-gray">/</span>
+                            <p class="text">Услуги</p>
+                        </a>
+                        <a href="#"
+                           class="bg-light_white rounded-full p-3 flex items-center gap-1 w-max min-h-[42px]">
+                            <span class="text-gray">02</span>
+                            <span class="text-gray">/</span>
+                            <p class="text">Портфолио</p>
+                        </a>
+                        <a href="#"
+                           class="bg-light_white rounded-full p-3 flex items-center gap-1 w-max min-h-[42px]">
+                            <span class="text-gray">03</span>
+                            <span class="text-gray">/</span>
+                            <p class="text">Отзывы</p>
+                        </a>
+                        <a href="#"
+                           class="bg-light_white rounded-full p-3 flex items-center gap-1 w-max min-h-[42px]">
+                            <span class="text-gray">04</span>
+                            <span class="text-gray">/</span>
+                            <p class="text">Цены</p>
+                        </a>
+                        <a href="#"
+                           class="bg-light_white rounded-full p-3 flex items-center gap-1 w-max min-h-[42px]">
+                            <span class="text-gray">05</span>
+                            <span class="text-gray">/</span>
+                            <p class="text">О компании</p>
+                        </a>
+                        <a href="#"
+                           class="bg-light_white rounded-full p-3 flex items-center gap-1 w-max min-h-[42px]">
+                            <span class="text-gray">06</span>
+                            <span class="text-gray">/</span>
+                            <p class="text">Контакты</p>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container">
+            <div class="grid grid-cols-5 gap-6">
+                <div class="row-start-1 row-end-2 col-start-1 col-end-3 border border-gray-light rounded-[36px] p-2 relative overflow-hidden min-h-[216px] h-full">
+                    <div class="advantage-card p-4 bg-light_white rounded-[28px] flex flex-col gap-4 text-dark h-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg self-end">01</p>
+                            <h3 class="text-xxl font-bold">Имеем опыт более 10 лет</h3>
+                        </div>
+                        <p class="text-lg max-w-[304px] w-full">
+                            Наш профессионализм исчисляется не только стажем, но и сотнями качественно выполненных
+                            ремонтов в городах Ростовской области
+                        </p>
+                        <svg width="0" height="0" viewBox="0 0 603 200" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <clipPath id="theClippingPathAdvantage" clipPathUnits="objectBoundingBox">
+                                    <path d="M1,0.335 C1,0.372,0.995,0.408,0.986,0.434 L0.812,0.959 C0.804,0.985,0.792,1,0.779,1 H0.046 C0.021,1,0,0.937,0,0.86 V0.14 C0,0.063,0.021,0,0.046,0 H0.954 C0.979,0,1,0.063,1,0.14 V0.335"></path>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <img src="assets/icons/advantage1.svg" alt="" class="absolute w-full h-full top-0 -right-[18%]">
+                    </div>
+                </div>
+                <div class="row-start-1 row-end-2 col-start-3 col-end-5 border border-gray-light rounded-[36px] p-2 min-h-[216px] h-full">
+                    <div class="relative p-4 flex flex-col gap-4 text-dark h-full">
+                        <div class="flex flex-col relative z-10">
+                            <p class="text-lg self-end">02</p>
+                            <h3 class="text-xxl font-bold">Сдаем точно в срок</h3>
+                        </div>
+                        <p class="text-lg max-w-[304px] w-full">
+                            100% наших проектов по ремонту квартир были сданы вовремя
+                        </p>
+                        <svg width="0" height="0" viewBox="0 0 302 200" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <clipPath id="theClippingPathAdvantageSmall" clipPathUnits="objectBoundingBox">
+                                    <path d="M1,0.33 C1,0.367,0.99,0.403,0.973,0.429 L0.622,0.959 C0.604,0.985,0.581,1,0.556,1 H0.093 C0.042,1,0,0.937,0,0.86 V0.14 C0,0.063,0.042,0,0.093,0 H0.907 C0.958,0,1,0.063,1,0.14 V0.33"></path>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <img src="assets/icons/advantage2.svg" alt=""
+                             class="advantage-card__small bg-light_white absolute top-0 right-0 h-full w-full max-w-[270px]">
+
+                    </div>
+                </div>
+                <div class="row-start-1 row-end-3 col-start-5 col-end-6 border border-gray-light rounded-[36px] p-2 min-h-[216px] h-full">
+                    <div class="advantage-card__vertical bg-light_white p-4 flex flex-col gap-6 text-dark h-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg self-end">03</p>
+                            <h3 class="text-xxl font-bold">Официальные партнеры</h3>
+                        </div>
+
+                        <div class="swiper-container w-full swiper-partners">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide ">
+                                    <img src="assets/images/partner1.png" alt="">
+                                </div>
+                                <div class="swiper-slide ">
+                                    <img src="assets/images/partner2.png" alt="">
+                                </div>
+                                <div class="swiper-slide ">
+                                    <img src="assets/images/partner1.png" alt="">
+                                </div>
+                            </div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <svg width="0" height="0" viewBox="0 0 317 317" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <clipPath id="theClippingPathAdvantageVertical" clipPathUnits="objectBoundingBox">
+                                    <path d="M1,0.593 C1,0.616,0.986,0.639,0.962,0.655 L0.497,0.974 C0.472,0.991,0.44,1,0.405,1 H0.129 C0.058,1,0,0.96,0,0.912 V0.088 C0,0.04,0.058,0,0.129,0 H0.871 C0.942,0,1,0.04,1,0.088 V0.593"></path>
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="row-start-2 row-end-3 col-start-1 col-end-3 border border-gray-light rounded-[36px] p-2 bg-dark relative overflow-hidden min-h-[216px] h-full">
+                    <div class="p-4 flex flex-col gap-4 text-white h-full">
+                        <div class="flex flex-col relative z-10">
+                            <p class="text-lg self-end">04</p>
+                            <h3 class="text-xxl font-bold max-w-[304px] w-full">Даем гарантийный срок на год</h3>
+                        </div>
+                        <p class="text-lg max-w-[304px] w-full">
+                            На все ремонтные работы по договору
+                        </p>
+                        <img src="assets/icons/advantage4.svg" alt="" class="absolute -top-[75px] -right-[14%]">
+
+                    </div>
+                </div>
+                <div class="row-start-2 row-end-3 col-start-3 col-end-5 border border-gray-light rounded-[36px] p-2 relative overflow-hidden min-h-[216px] h-full">
+                    <div class="advantage-card p-4 bg-light_white rounded-[28px] flex flex-col gap-4 text-dark h-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg self-end">05</p>
+                            <h3 class="text-xxl font-bold">Фиксированная цена</h3>
+                        </div>
+                        <p class="text-lg max-w-[304px] w-full">
+                            Стоимость ремонта фиксируется<br>
+                            в договоре и остается неизменной
+                        </p>
+                        <svg width="0" height="0" viewBox="0 0 603 200" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <clipPath id="theClippingPathAdvantage" clipPathUnits="objectBoundingBox">
+                                    <path d="M1,0.335 C1,0.372,0.995,0.408,0.986,0.434 L0.812,0.959 C0.804,0.985,0.792,1,0.779,1 H0.046 C0.021,1,0,0.937,0,0.86 V0.14 C0,0.063,0.021,0,0.046,0 H0.954 C0.979,0,1,0.063,1,0.14 V0.335"></path>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <img src="assets/icons/advantage5.svg" alt="" class="absolute h-full top-0 -right-[5%]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container">
+            <div class="flex flex-col gap-10">
+                <h2 class="text-title text-dark font-bold">О компании</h2>
+                <div class="grid grid-cols-2 gap-[22px]">
+                    <div class="flex flex-col gap-8 pt-5">
+                        <p class="text-xl text-dark max-w-[663px] w-full">
+                            Мы могли бы рассказать о том, какая мы добросовестная компания с устойчивой многолетней
+                            репутацией на рынке, но мы ценим ваше время, и поэтому скажем о себе в трёх словах:
+                        </p>
+                        <ul class="text-xxl text-dark font-bold flex flex-col gap-4">
+                            <li class="flex items-center gap-2">
+                                <img src="assets/icons/shieldCheck.svg" alt="" class="shrink-0">
+                                Высокое <span class="italic">качество</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="assets/icons/shieldCheck.svg" alt="" class="shrink-0">
+                                Оперативность
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="assets/icons/shieldCheck.svg" alt="" class="shrink-0">
+                                Оптимальная <span class="italic">стоимость</span>
+                            </li>
+                        </ul>
+                        <p class="text-subtitle text-dark">
+                            Готово — от <span class="italic text-secondary">экономичной уютной квартиры</span> в
+                            спальном районе, до дизайнерского
+                            ремонта и
+                            <span class="italic text-secondary">индивидуальных решений</span> под любую вашу идею.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-6 bg-light_white p-6 rounded-[36px]">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-subtitle text-dark font-bold">
+                                Наша <span class="italic text-secondary">команда</span>
+                            </h3>
+                            <div class="flex items-center justify-between gap-3 border border-secondary rounded-full p-3">
+                                <div class="swiper__team-button-prev">
+                                    <img src="assets/icons/caretLeft.svg" alt="">
+                                </div>
+                                <div class="swiper__team-button-next">
+                                    <img src="assets/icons/caretRight.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-container w-full swiper-team">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="flex flex-col gap-4">
+                                        <img src="assets/images/team1.png" alt=""
+                                             class="w-full rounded-[20px] min-h-[234px] h-full object-cover">
+                                        <div class="flex flex-col gap-3">
+                                            <p class="text-lg text-dark font-bold">Иванов Иван</p>
+                                            <div class="flex flex-col gap-1">
+                                                <p class="text-lg text-secondary font-bold">600+</p>
+                                                <p class="text-lg text-dark">ремонтов за 28 лет</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex flex-col gap-4">
+                                        <img src="assets/images/team2.png" alt=""
+                                             class="w-full rounded-[20px] min-h-[234px] h-full object-cover">
+                                        <div class="flex flex-col gap-3">
+                                            <p class="text-lg text-dark font-bold">Петров-Водкин<br>Александр</p>
+                                            <div class="flex flex-col gap-1">
+                                                <p class="text-lg text-secondary font-bold">250+</p>
+                                                <p class="text-lg text-dark">ремонтов за 12 лет</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex flex-col gap-4">
+                                        <img src="assets/images/team3.png" alt=""
+                                             class="w-full rounded-[20px] min-h-[234px] h-full object-cover">
+                                        <div class="flex flex-col gap-3">
+                                            <p class="text-lg text-dark font-bold">Иванов Иван</p>
+                                            <div class="flex flex-col gap-1">
+                                                <p class="text-lg text-secondary font-bold">160+</p>
+                                                <p class="text-lg text-dark">реализованных дизайн проектов</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-8">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-subtitle text-dark font-bold">
+                            Лицензии и сертификаты
+                        </h3>
+                        <div class="flex items-center justify-between gap-3 border border-secondary rounded-full p-3">
+                            <div class="swiper__certificate-button-prev">
+                                <img src="assets/icons/caretLeft.svg" alt="">
+                            </div>
+                            <div class="swiper__certificate-button-next">
+                                <img src="assets/icons/caretRight.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-container w-full swiper-certificate">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a data-fancybox data-src="assets/images/certificate.png"
+                                   href="assets/images/certificate.png" data-caption="Лицензия">
+                                    <img src="assets/images/certificate.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light_white">
+        <div class="container py-20">
+            <div class="flex flex-col gap-10">
+                <h2 class="text-title text-dark font-bold">Почему <span class="text-secondary italic">выбирают</span>
+                    нас</h2>
+                <div class="flex flex-col gap-6">
+                    <div class="grid grid-cols-[2fr_1fr] gap-6">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="flex flex-col bg-white rounded-[20px] p-4 gap-4 text-dark">
+                                <div class="w-11 h-11 flex justify-center items-center rounded-full border border-secondary">
+                                    <img src="assets/icons/Files.svg" alt="">
+                                </div>
+                                <p class="text-xxl font-bold">Составляем четкую смету, которая не растет в процессе
+                                    работы</p>
+                                <p class="text-lg">и прикрепляем ее к договору. Еще пара слов про прозрачную стоимость
+                                    работ</p>
+                            </div>
+                            <div class="flex flex-col bg-white rounded-[20px] p-4 gap-4 text-dark">
+                                <div class="w-11 h-11 flex justify-center items-center rounded-full border border-secondary">
+                                    <img src="assets/icons/Certificate.svg" alt="">
+                                </div>
+                                <p class="text-xxl font-bold">Наши сотрудники регулярно подтверждают квалификацию</p>
+                                <p class="text-lg">Расписать преимущество подробней на две строки максимум</p>
+                            </div>
+                            <div class="flex flex-col bg-white rounded-[20px] p-4 gap-4 text-dark">
+                                <div class="w-11 h-11 flex justify-center items-center rounded-full border border-secondary">
+                                    <img src="assets/icons/MonitorPlay.svg" alt="">
+                                </div>
+                                <p class="text-xxl font-bold">Отправляем фото / видео по каждому этапу</p>
+                                <p class="text-lg">Расписать преимущество подробней на две строки максимум</p>
+                            </div>
+                            <div class="flex flex-col bg-white rounded-[20px] p-4 gap-4 text-dark">
+                                <div class="w-11 h-11 flex justify-center items-center rounded-full border border-secondary">
+                                    <img src="assets/icons/CreditCard.svg" alt="">
+                                </div>
+                                <p class="text-xxl font-bold">Оплата только по факту после сдачи работ</p>
+                                <p class="text-lg">Расписать преимущество подробней на две строки максимум</p>
+                            </div>
+                        </div>
+                        <div class="bg-advantage-pattern advantage-bg bg-cover bg-no-repeat relative p-6 text-white">
+                            <div class="flex items-center justify-between gap-6">
+                                <p class="text-xxl font-bold max-w-[320px]">Сделаем ремонт под любой бюджет</p>
+                                <div class="w-11 h-11 flex justify-center items-center rounded-full border border-white">
+                                    <img src="assets/icons/Coins.svg" alt="">
+                                </div>
+                            </div>
+                            <svg width="0" height="0" viewBox="0 0 491 448" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                                <defs>
+                                    <clipPath id="theClippingPathAdvantageBg" clipPathUnits="objectBoundingBox">
+                                        <path d="M1,0.705 C1,0.722,0.994,0.738,0.983,0.75 L0.772,0.982 C0.761,0.993,0.746,1,0.731,1 H0.057 C0.026,1,0,0.972,0,0.938 V0.063 C0,0.028,0.026,0,0.057,0 H0.943 C0.974,0,1,0.028,1,0.063 V0.705"></path>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-6">
+                        <div class="bg-advantage-pattern__sm advantage-bg__sm bg-cover bg-no-repeat bg-center relative p-6 text-white">
+                            <div class="absolute top-6 right-6 w-11 h-11 flex justify-center items-center rounded-full border border-white">
+                                <img src="assets/icons/Gift.svg" alt="">
+                            </div>
+                            <p class="absolute top-1/2 translate-y-[-50%] text-xxl font-bold">Дарим клининг в
+                                подарок!</p>
+                            <svg width="0" height="0" viewBox="0 0 491 243" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                                <defs>
+                                    <clipPath id="theClippingPathAdvantageBgSm" clipPathUnits="objectBoundingBox">
+                                        <path d="M1,0.885 C1,0.948,0.974,1,0.943,1 H0.057 C0.026,1,0,0.948,0,0.885 V0.369 C0,0.338,0.006,0.309,0.017,0.287 L0.142,0.034 C0.153,0.012,0.167,0,0.183,0 H0.943 C0.974,0,1,0.052,1,0.115 V0.885"></path>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col bg-white rounded-[20px] p-4 gap-4 text-dark">
+                            <div class="w-11 h-11 flex justify-center items-center rounded-full border border-secondary">
+                                <img src="assets/icons/Broom.svg" alt="">
+                            </div>
+                            <p class="text-xxl font-bold">Вывезем весь строительный мусор по окончании работ</p>
+                            <p class="text-lg">Расписать преимущество подробней на две строки максимум</p>
+                        </div>
+                        <div class="flex flex-col bg-white rounded-[20px] p-4 gap-4 text-dark">
+                            <div class="w-11 h-11 flex justify-center items-center rounded-full border border-secondary">
+                                <img src="assets/icons/CalendarCheck.svg" alt="">
+                            </div>
+                            <p class="text-xxl font-bold">Вы сможете переехать в свою квартиру без задержек, точно в
+                                срок</p>
+                            <p class="text-lg">Расписать преимущество подробней на две строки максимум</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container">
+            <div class="flex flex-col gap-10">
+                <h2 class="text-title text-dark font-bold">Услуги</h2>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="flex flex-col gap-6 p-4 border border-secondary rounded-[36px]">
+                        <div class="relative">
+                            <img src="assets/images/service1.jpg" alt=""
+                                 class="w-full max-h-[274px] h-full object-cover service-bg">
+                            <span class="absolute top-0 left-0 w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-lg text-secondary">
+                                01
+                            </span>
+                            <div class="flex flex-col gap-4 p-4 text-white absolute bottom-0 z-[2]">
+                                <h3 class="text-subtitle font-bold">Ремонт квартир под ключ</h3>
+                                <p class="text-lg max-w-[599px]">
+                                    Мы берем на себя все этапы ремонта – от разработки дизайн-проекта до уборки после
+                                    завершения работ. Вам останется только наслаждаться результатом!
+                                </p>
+                            </div>
+                            <div class="absolute w-full h-full top-0 bg-gradient-dark service-bg"></div>
+                        </div>
+                        <div class="flex justify-between gap-6">
+                            <ul class="text-lg text-dark flex flex-col gap-2">
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Полный комплекс услуг
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Фиксированная цена
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Гарантия качества
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Соблюдение сроков
+                                </li>
+                            </ul>
+                            <div class="flex flex-col gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-lg text-gray">Цена:</p>
+                                    <p class="text-xxl text-dark font-bold">от 25 000 руб./м²</p>
+                                </div>
+                                <div class="border border-dark rounded-full flex items-center">
+                                    <div class="bg-dark rounded-full px-4 py-3 text-white text-base shrink-0">
+                                        Связаться с менеджером
+                                    </div>
+                                    <div class="h-full w-full min-w-[32px] flex items-center justify-center">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_20_221)">
+                                                <path d="M7.75 3.75L14 10L7.75 16.25" stroke="#1F201A"
+                                                      stroke-width="1.5"
+                                                      stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_20_221">
+                                                    <rect width="20" height="20" fill="white"
+                                                          transform="translate(0.25)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 p-4 border border-secondary rounded-[36px]">
+                        <div class="relative">
+                            <img src="assets/images/service2.jpg" alt=""
+                                 class="w-full max-h-[274px] h-full object-cover service-bg">
+                            <span class="absolute top-0 left-0 w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-lg text-secondary">
+                                02
+                            </span>
+                            <div class="flex flex-col gap-4 p-4 text-white absolute bottom-0 z-[2]">
+                                <h3 class="text-subtitle font-bold">Дизайн-проект интерьера</h3>
+                                <p class="text-lg max-w-[599px]">
+                                    Наши опытные дизайнеры разработают для вас индивидуальный дизайн-проект, учитывая
+                                    все ваши пожелания и особенности помещения.
+                                </p>
+                            </div>
+                            <div class="absolute w-full h-full top-0 bg-gradient-dark service-bg"></div>
+                        </div>
+                        <div class="flex justify-between gap-6">
+                            <ul class="text-lg text-dark flex flex-col gap-2">
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Индивидуальный подход
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Визуализация проекта в 3D
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Подбор материалов и мебели
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Авторский надзор
+                                </li>
+                            </ul>
+                            <div class="flex flex-col gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-lg text-gray">Цена:</p>
+                                    <p class="text-xxl text-dark font-bold">индивидуальна по запросу</p>
+                                </div>
+                                <div class="border border-dark rounded-full flex items-center">
+                                    <div class="bg-dark rounded-full px-4 py-3 text-white text-base shrink-0">
+                                        Получить консультацию дизайнера
+                                    </div>
+                                    <div class="h-full w-full min-w-[32px] flex items-center justify-center">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_20_221)">
+                                                <path d="M7.75 3.75L14 10L7.75 16.25" stroke="#1F201A"
+                                                      stroke-width="1.5"
+                                                      stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_20_221">
+                                                    <rect width="20" height="20" fill="white"
+                                                          transform="translate(0.25)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 p-4 border border-secondary rounded-[36px]">
+                        <div class="relative">
+                            <img src="assets/images/service3.jpg" alt=""
+                                 class="w-full max-h-[274px] h-full object-cover service-bg">
+                            <span class="absolute top-0 left-0 w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-lg text-secondary">
+                                03
+                            </span>
+                            <div class="flex flex-col gap-4 p-4 text-white absolute bottom-0 z-[2]">
+                                <h3 class="text-subtitle font-bold">Косметический ремонт</h3>
+                                <p class="text-lg max-w-[599px]">
+                                    Хотите освежить интерьер без серьезных затрат? Косметический ремонт – это идеальное
+                                    решение для вас!
+                                </p>
+                            </div>
+                            <div class="absolute w-full h-full top-0 bg-gradient-dark service-bg"></div>
+                        </div>
+                        <div class="flex justify-between gap-6">
+                            <ul class="text-lg text-dark flex flex-col gap-2">
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Быстро и недорого
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Минимум хлопот
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Обновление интерьера без перепланировки
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Использование качественных материалов
+                                </li>
+                            </ul>
+                            <div class="flex flex-col gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-lg text-gray">Цена:</p>
+                                    <p class="text-xxl text-dark font-bold">от 10 000 руб./м²</p>
+                                </div>
+                                <div class="border border-dark rounded-full flex items-center">
+                                    <div class="bg-dark rounded-full px-4 py-3 text-white text-base shrink-0">
+                                        Узнать подробнее
+                                    </div>
+                                    <div class="h-full w-full min-w-[32px] flex items-center justify-center">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_20_221)">
+                                                <path d="M7.75 3.75L14 10L7.75 16.25" stroke="#1F201A"
+                                                      stroke-width="1.5"
+                                                      stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_20_221">
+                                                    <rect width="20" height="20" fill="white"
+                                                          transform="translate(0.25)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 p-4 border border-secondary rounded-[36px]">
+                        <div class="relative">
+                            <img src="assets/images/service4.jpg" alt=""
+                                 class="w-full max-h-[274px] h-full object-cover service-bg">
+                            <span class="absolute top-0 left-0 w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-lg text-secondary">
+                                04
+                            </span>
+                            <div class="flex flex-col gap-4 p-4 text-white absolute bottom-0 z-[2]">
+                                <h3 class="text-subtitle font-bold">Ремонт ванной комнаты и санузла</h3>
+                                <p class="text-lg max-w-[599px]">
+                                    Мы создадим ванную комнату вашей мечты – от разработки дизайн-проекта до установки
+                                    сантехники.
+                                </p>
+                            </div>
+                            <div class="absolute w-full h-full top-0 bg-gradient-dark service-bg"></div>
+                        </div>
+                        <div class="flex justify-between gap-6">
+                            <ul class="text-lg text-dark flex flex-col gap-2">
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Индивидуальный дизайн
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Использование качественной сантехники
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Профессиональная укладка плитки
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Гарантия на гидроизоляцию
+                                </li>
+                            </ul>
+                            <div class="flex flex-col gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-lg text-gray">Цена:</p>
+                                    <p class="text-xxl text-dark font-bold">от 10 000 руб./м²</p>
+                                </div>
+                                <div class="border border-dark rounded-full flex items-center">
+                                    <div class="bg-dark rounded-full px-4 py-3 text-white text-base shrink-0">
+                                        Получить консультацию
+                                    </div>
+                                    <div class="h-full w-full min-w-[32px] flex items-center justify-center">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_20_221)">
+                                                <path d="M7.75 3.75L14 10L7.75 16.25" stroke="#1F201A"
+                                                      stroke-width="1.5"
+                                                      stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_20_221">
+                                                    <rect width="20" height="20" fill="white"
+                                                          transform="translate(0.25)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 p-4 border border-secondary rounded-[36px]">
+                        <div class="relative">
+                            <img src="assets/images/service5.jpg" alt=""
+                                 class="w-full max-h-[274px] h-full object-cover service-bg">
+                            <span class="absolute top-0 left-0 w-10 h-10 rounded-full border border-secondary flex items-center justify-center text-lg text-secondary">
+                                05
+                            </span>
+                            <div class="flex flex-col gap-4 p-4 text-white absolute bottom-0 z-[2]">
+                                <h3 class="text-subtitle font-bold">Ремонт кухни</h3>
+                                <p class="text-lg max-w-[599px]">
+                                    Мы создадим кухню, где вам будет удобно готовить и приятно проводить время с семьей
+                                    и друзьями.
+                                </p>
+                            </div>
+                            <div class="absolute w-full h-full top-0 bg-gradient-dark service-bg"></div>
+                        </div>
+                        <div class="flex justify-between gap-6">
+                            <ul class="text-lg text-dark flex flex-col gap-2">
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Индивидуальный дизайн
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Эргономичная планировка
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Подбор современной техники
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-[15px] h-[15px] bg-secondary rounded-full flex items-center justify-center shrink-0">
+                                        <img src="assets/icons/check.svg" alt="">
+                                    </span>
+                                    Установка качественной мебели
+                                </li>
+                            </ul>
+                            <div class="flex flex-col gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-lg text-gray">Цена:</p>
+                                    <p class="text-xxl text-dark font-bold">от 15 000 руб./м²</p>
+                                </div>
+                                <div class="border border-dark rounded-full flex items-center">
+                                    <div class="bg-dark rounded-full px-4 py-3 text-white text-base shrink-0">
+                                        Узнать подробнее
+                                    </div>
+                                    <div class="h-full w-full min-w-[32px] flex items-center justify-center">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_20_221)">
+                                                <path d="M7.75 3.75L14 10L7.75 16.25" stroke="#1F201A"
+                                                      stroke-width="1.5"
+                                                      stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_20_221">
+                                                    <rect width="20" height="20" fill="white"
+                                                          transform="translate(0.25)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 p-4 border border-secondary rounded-[36px]">
+                        <h3 class="text-subtitle text-dark font-bold"><span
+                                class="text-secondary italic">Дополнительные</span> услуги</h3>
+                        <ul class="grid grid-cols-2 gap-2 text-additional">
+                            <li class="flex items-center gap-3 bg-light_white p-4 rounded-[20px]">
+                                <span class="w-7 h-7 border border-secondary rounded-full flex items-center justify-center shrink-0">
+                                    <img src="assets/icons/shieldCheckSmall.svg" alt="" class="shrink-0">
+                                </span>
+                                Ремонт офисов
+                            </li>
+                            <li class="flex items-center gap-3 bg-light_white p-4 rounded-[20px]">
+                                <span class="w-7 h-7 border border-secondary rounded-full flex items-center justify-center shrink-0">
+                                    <img src="assets/icons/shieldCheckSmall.svg" alt="" class="shrink-0">
+                                </span>
+                                Отделка новостроек
+                            </li>
+                            <li class="flex items-center gap-3 bg-light_white p-4 rounded-[20px]">
+                                <span class="w-7 h-7 border border-secondary rounded-full flex items-center justify-center shrink-0">
+                                    <img src="assets/icons/shieldCheckSmall.svg" alt="" class="shrink-0">
+                                </span>
+                                Укладка плитки
+                            </li>
+                            <li class="flex items-center gap-3 bg-light_white p-4 rounded-[20px]">
+                                <span class="w-7 h-7 border border-secondary rounded-full flex items-center justify-center shrink-0">
+                                    <img src="assets/icons/shieldCheckSmall.svg" alt="" class="shrink-0">
+                                </span>
+                                Малярные работы
+                            </li>
+                            <li class="flex items-center gap-3 bg-light_white p-4 rounded-[20px]">
+                                <span class="w-7 h-7 border border-secondary rounded-full flex items-center justify-center shrink-0">
+                                    <img src="assets/icons/shieldCheckSmall.svg" alt="" class="shrink-0">
+                                </span>
+                                Сантехнические работы
+                            </li>
+                            <li class="flex items-center gap-3 bg-light_white p-4 rounded-[20px]">
+                                <span class="w-7 h-7 border border-secondary rounded-full flex items-center justify-center shrink-0">
+                                    <img src="assets/icons/shieldCheckSmall.svg" alt="" class="shrink-0">
+                                </span>
+                                Электромонтажные работы
+                            </li>
+                            <li class="col-span-2 flex items-center gap-3 bg-light_white p-4 rounded-[20px]">
+                                <span class="w-7 h-7 border border-secondary rounded-full flex items-center justify-center shrink-0">
+                                    <img src="assets/icons/shieldCheckSmall.svg" alt="" class="shrink-0">
+                                </span>
+                                Установка натяжных потолков
+                            </li>
+                        </ul>
+                        <div class="border border-dark rounded-full flex items-center w-max self-end mt-auto">
+                            <div class="bg-dark rounded-full px-4 py-3 text-white text-base shrink-0">
+                                Узнать подробнее
+                            </div>
+                            <div class="h-full w-full min-w-[32px] flex items-center justify-center">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_20_221)">
+                                        <path d="M7.75 3.75L14 10L7.75 16.25" stroke="#1F201A"
+                                              stroke-width="1.5"
+                                              stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_20_221">
+                                            <rect width="20" height="20" fill="white"
+                                                  transform="translate(0.25)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <svg width="0" height="0" viewBox="0 0 716 254" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                    <defs>
+                        <clipPath id="theClippingPathService" clipPathUnits="objectBoundingBox">
+                            <path d="M1,0.765 C1,0.794,0.996,0.822,0.989,0.843 L0.944,0.968 C0.937,0.988,0.927,1,0.917,1 H0.039 C0.018,1,0,0.951,0,0.89 V0.36 C0,0.331,0.004,0.303,0.011,0.282 L0.1,0.032 C0.107,0.012,0.117,0,0.128,0 H0.961 C0.982,0,1,0.049,1,0.11 V0.765"></path>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container">
+            <div class="flex flex-col gap-10">
+                <h2 class="text-title text-dark font-bold">Готовые <span
+                        class="text-secondary italic">решения для вас</span> и дизайн-проекты</h2>
+                <div class="flex flex-col gap-8">
+                    <div class="grid grid-cols-[450px_auto] gap-6 text-dark">
+                        <p class="text-subtitle font-bold">Ремонт всегда лучше начинать с <span class="italic">дизайн-проекта</span>
+                        </p>
+                        <div class="flex flex-col gap-3 text-dark">
+                            <p class="text-lg">
+                                Если у вас его нет, команда наших дизайнеров подберет для вас решение под любой вкус, и
+                                учтет пожелания каждого члена семьи, сохранив при этом общую концепцию.
+                            </p>
+                            <p class="text-base">
+                                Также, у нас есть уже готовые решения дизайн-проектов, разработанные с учетом последних
+                                тенденций в мире ремонта и нашего стремления сделать вашу квартиру не только эстетически
+                                приятным местом проживания, но и грамотно продуманным пространством, куда захочется
+                                возвращаться каждый день и испытывать удовольствие.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-4 gap-6">
+                        <div class="flex flex-col gap-4 text-dark">
+                            <div class="relative">
+                                <div class="swiper-container w-full swiper-styles1">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/style1-1.jpg" alt=""
+                                                 class="w-full h-[340px] object-cover rounded-[20px]">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute z-[1] bottom-4 left-1/2 translate-x-[-50%] backdrop-blur-sm flex items-center justify-between gap-3 border border-white rounded-full p-3">
+                                    <div class="swiper__styles1-button-prev">
+                                        <img src="assets/icons/caretLeftWhite.svg" alt="">
+                                    </div>
+                                    <div class="swiper__styles1-button-next">
+                                        <img src="assets/icons/caretRightWhite.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="text-xxl font-bold">
+                                Стиль 1
+                            </h5>
+                            <p class="text-lg">
+                                Белые и нейтральные оттенки стен создают ощущение простора и чистоты. <br>Декоративные
+                                деревянные рейки на стене добавляют тепла и визуального интереса. Зеркало с подсветкой
+                                создает мягкое, уютное освещение, подчеркивающее современные тенденции дизайна.
+                            </p>
+                        </div>
+                        <div class="flex flex-col gap-4 text-dark">
+                            <div class="relative">
+                                <div class="swiper-container w-full swiper-styles2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/style2-1.jpg" alt=""
+                                                 class="w-full h-[340px] object-cover rounded-[20px]">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute z-[1] bottom-4 left-1/2 translate-x-[-50%] backdrop-blur-sm flex items-center justify-between gap-3 border border-white rounded-full p-3">
+                                    <div class="swiper__styles2-button-prev">
+                                        <img src="assets/icons/caretLeftWhite.svg" alt="">
+                                    </div>
+                                    <div class="swiper__styles2-button-next">
+                                        <img src="assets/icons/caretRightWhite.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="text-xxl font-bold">
+                                Стиль 2
+                            </h5>
+                            <p class="text-lg">
+                                Этот интерьер представляет собой пример стильного и функционального подхода к дизайну,
+                                который подойдет для разных типов жилых помещений. Преобладает светлая цветовая гамма:
+                                оттенки серого, белого и натурального дерева создают атмосферу спокойствия и уюта. Стена
+                                с текстурой мрамора добавляет изысканности и служит фокусной точкой.
+                            </p>
+                        </div>
+                        <div class="flex flex-col gap-4 text-dark">
+                            <div class="relative">
+                                <div class="swiper-container w-full swiper-styles3">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/style3-1.jpg" alt=""
+                                                 class="w-full h-[340px] object-cover rounded-[20px]">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute z-[1] bottom-4 left-1/2 translate-x-[-50%] backdrop-blur-sm flex items-center justify-between gap-3 border border-white rounded-full p-3">
+                                    <div class="swiper__styles3-button-prev">
+                                        <img src="assets/icons/caretLeftWhite.svg" alt="">
+                                    </div>
+                                    <div class="swiper__styles3-button-next">
+                                        <img src="assets/icons/caretRightWhite.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="text-xxl font-bold">
+                                Стиль 3
+                            </h5>
+                            <p class="text-lg">
+                                Элегантность минимализма, уют дерева и современное освещение - ваш интерьер, созданный с
+                                заботой о каждой детали. Потолочные светильники (трековые системы и точечное освещение)
+                                обеспечивают равномерное освещение и подчеркивают архитектурные детали.
+                            </p>
+                        </div>
+                        <div class="flex flex-col gap-4 text-dark">
+                            <div class="relative">
+                                <div class="swiper-container w-full swiper-styles4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/style4-1.jpg" alt=""
+                                                 class="w-full h-[340px] object-cover rounded-[20px]">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute z-[1] bottom-4 left-1/2 translate-x-[-50%] backdrop-blur-sm flex items-center justify-between gap-3 border border-white rounded-full p-3">
+                                    <div class="swiper__styles4-button-prev">
+                                        <img src="assets/icons/caretLeftWhite.svg" alt="">
+                                    </div>
+                                    <div class="swiper__styles4-button-next">
+                                        <img src="assets/icons/caretRightWhite.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="text-xxl font-bold">
+                                Стиль 4
+                            </h5>
+                            <p class="text-lg">
+                                Лаконичные формы и линии подчеркивают современный стиль. Гладкий, светлый ламинат
+                                устойчив к износу и придает пространству тепло. Глубокая ванна, подвесной унитаз и
+                                удобная раковина добавляют удобства. Интерьер демонстрирует мастерство в использовании
+                                современных технологий, Качественных материалов и продуманных дизайнерских решений.
+                                Подобный подход идеально подойдёт для клиентов, стремящихся к стилю и практичности в
+                                своем доме.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container">
+            <div class="flex flex-col gap-10">
+                <h2 class="text-title text-dark font-bold">Этапы взаимодействия</h2>
+                <div class="grid grid-cols-[auto_459px] items-start gap-6">
+                    <div class="flex">
+                        <img src="assets/icons/dots-line.svg" alt="" class="py-[26px] h-full object-cover">
+                        <div class="flex flex-col gap-2">
+                            <div class="flex items-center text-xxl gap-2 p-4 border border-secondary rounded-[20px]">
+                                <span class="text-gray">01</span>
+                                <span class="text-gray">/</span>
+                                <p class="text-dark">Вы оставляете заявку любым удобным для вас способом</p>
+                            </div>
+                            <div class="flex items-center text-xxl gap-2 p-4 border border-secondary rounded-[20px]">
+                                <span class="text-gray">02</span>
+                                <span class="text-gray">/</span>
+                                <p class="text-dark">Мы приезжаем к Вам, делаем замер и профессиональную оценку
+                                    объекта</p>
+                            </div>
+                            <div class="flex items-center text-xxl gap-2 p-4 border border-secondary rounded-[20px]">
+                                <span class="text-gray">03</span>
+                                <span class="text-gray">/</span>
+                                <p class="text-dark">Вы получаете полную смету с расчетом стоимости вашего ремонта</p>
+                            </div>
+                            <div class="flex items-center text-xxl gap-2 p-4 border border-secondary rounded-[20px]">
+                                <span class="text-gray">04</span>
+                                <span class="text-gray">/</span>
+                                <p class="text-dark">Мы подписываем с вами договор <span class="text-gray">(у нас в офисе или у Вас дома)</span>
+                                </p>
+                            </div>
+                            <div class="flex items-center text-xxl gap-2 p-4 border border-secondary rounded-[20px]">
+                                <span class="text-gray">05</span>
+                                <span class="text-gray">/</span>
+                                <p class="text-dark">Закрепляем за вашим объектом прораба, который будет с вами на связи
+                                    24/7</p>
+                            </div>
+                            <div class="flex items-center text-xxl gap-2 p-4 border border-secondary rounded-[20px]">
+                                <span class="text-gray">06</span>
+                                <span class="text-gray">/</span>
+                                <p class="text-dark">Приступаем к работе <span class="text-gray">(вы сможете отслеживать ход ремонта в любое время)</span>
+                                </p>
+                            </div>
+                            <div class="flex items-center text-xxl gap-2 p-4 border border-secondary rounded-[20px]">
+                                <span class="text-gray">07</span>
+                                <span class="text-gray">/</span>
+                                <p class="text-dark">Оплата производится после завершения каждого этапа</p>
+                            </div>
+                            <div class="flex items-center text-xxl gap-2 p-4 border border-secondary rounded-[20px]">
+                                <span class="text-gray">08</span>
+                                <span class="text-gray">/</span>
+                                <p class="text-dark">Вы принимаете работу и вносите остаток</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-8">
+                        <p class="text-subtitle font-bold text-dark">
+                            С нами вы будете абсолютно спокойны в прозрачности процессов и регулярной отчетности.
+                        </p>
+                        <img src="assets/images/stages.jpg" alt="" class="w-full stages-img h-[200px] object-cover">
+                        <p class="text-subtitle text-dark">
+                            Рекомендуя нас своим близким, вы получаете <span class="text-secondary italic">гарантированную скидку при следующем обращении</span>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <svg width="0" height="0" viewBox="0 0 491 200" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                    <clipPath id="theClippingPathStages" clipPathUnits="objectBoundingBox">
+                        <path d="M1,0.406 C1,0.433,0.996,0.458,0.988,0.477 L0.787,0.971 C0.779,0.989,0.769,1,0.758,1 H0.041 C0.018,1,0,0.955,0,0.9 V0.1 C0,0.045,0.018,0,0.041,0 H0.959 C0.982,0,1,0.045,1,0.1 V0.406"></path>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container">
+            <div class="flex flex-col gap-10">
+                <div class="flex items-center justify-between">
+                    <h2 class="text-title text-dark font-bold">Примеры <span class="text-secondary italic">выполненных</span> работ</h2>
+                    <div class="flex items-center justify-between gap-6 border border-secondary rounded-full py-5 px-6">
+                        <div class="swiper__works-button-prev">
+                            <img src="assets/icons/caretLeft.svg" alt="">
+                        </div>
+                        <div class="swiper__works-button-next">
+                            <img src="assets/icons/caretRight.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[1fr_3fr] gap-6">
+                    <div class="flex flex-col gap-6">
+                        <div class="flex flex-wrap gap-2">
+                            <div class="text-lg text-dark text-center py-3 px-4 border border-secondary rounded-full">
+                                Все работы
+                            </div>
+                            <div class="text-lg text-dark text-center py-3 px-4 border border-secondary rounded-full">
+                                Новостройки
+                            </div>
+                            <div class="text-lg text-dark text-center py-3 px-4 border border-secondary rounded-full">
+                                Старый фонд
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-4 text-dark">
+                            <p class="text-subtitle font-bold">
+                                В нашем портфолио представлены проекты <span class="italic">разных стилей и уровней сложности</span>
+                            </p>
+                            <p>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-container w-full swiper-works">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="p-2 flex flex-col gap-2 border border-gray-light rounded-[28px]">
+                                    <img src="assets/images/works/work1.jpg" alt=""
+                                         class="img-works w-full h-[440px] object-cover">
+                                    <div class="p-2 flex flex-col p-4">
+                                        <h4 class="text-xxl font-bold">
+                                            Ремонт квартиры
+                                            <br>ул. Ленина
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/works/work2.jpg" alt=""
+                                     class="img-works w-full h-[440px] object-cover">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/works/work3.jpg" alt=""
+                                     class="img-works w-full h-[440px] object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg width="0" height="0" viewBox="0 0 346 440" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                    <clipPath id="theClippingPathWorks" clipPathUnits="objectBoundingBox">
+                        <path d="M1,0.955 C1,0.98,0.974,1,0.942,1 H0.058 C0.026,1,0,0.98,0,0.955 V0.285 C0,0.273,0.006,0.261,0.017,0.253 L0.321,0.013 C0.332,0.005,0.347,0,0.362,0 H0.942 C0.974,0,1,0.02,1,0.045 V0.955"></path>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+    </section>
+ <section class="py-20 bg-dark">
+    <div class="container">
+        <div class="flex flex-col gap-10">
+            <div class="flex items-center justify-between">
+                <h2 class="text-title text-white font-bold">Отзывы<span class="text-secondary italic"> наших</span> клиентов</h2>
+                <div class="flex items-center justify-between gap-6 border border-white rounded-full py-5 px-6">
+                    <div class="swiper__review-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-cb4ea9599e6b3997">
+                        <img src="assets/icons/caretLeftWhite.svg" alt=""> 
+                    </div>
+                    <div class="swiper__review-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-cb4ea9599e6b3997">
+                        <img src="assets/icons/caretRightWhite.svg" alt=""> 
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container w-full swiper-review">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide h-auto">
+                        <div class="flex flex-col p-4 gap-6 border border-gray-light rounded-[28px] h-full">
+                            <div class="flex flex-col gap-2">
+                                <div class="flex gap-4" style="align-items: center;">
+                                    <img src="/assets/icons/commas.svg">
+                                    <div class="flex flex-col gap-2">
+                                        <p class="text-lg text-white font-bold">Ремонт коттеджа, поселок Ижора</p>
+                                        <p class="text-lg text-gray">Ирина Самойлова</p>
+                                    </div>
+                                </div>      
+                                <div class="grid grid-cols-[auto_140px] gap-2 items-start">
+                                    <div class="flex flex-col gap-4">
+                                        <p class="text-lg text-white">После строительства коттеджа обратились в Прораб Неву за услугой внутренней отделки. Более всего волновались за сантехническую часть и оборудование лестницы.</p>
+                                        <p class="text-lg text-white">Бригада не стала отходить от технологических стандартов, чтобы сократить сроки ремонта, благодарим команду за высокий уровень качества.</p>
+                                        <button class="bg-transparent flex items-center gap-2">
+                                            <p class="text-lg text-beige">Подробнее</p>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_46_314)">
+                                                    <path d="M7.5 3.75L13.75 10L7.5 16.25" stroke="#DFD9B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_46_314">
+                                                        <rect width="20" height="20" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="swiper-container w-full swiper-review-photo">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-auto">
+                        <div class="flex flex-col p-4 gap-6 border border-gray-light rounded-[28px] h-full">
+                            <div class="flex flex-col gap-2">
+                                <div class="flex gap-4" style="align-items: center;">
+                                    <img src="/assets/icons/commas.svg">
+                                    <div class="flex flex-col gap-2">
+                                        <p class="text-lg text-white font-bold">Ремонт квартиры, ЖК «Акварель»</p>
+                                        <p class="text-lg text-gray">Павел Пушкарев</p>
+                                    </div>
+                                </div>      
+                                <div class="grid items-start">
+                                    <p class="text-lg text-white">Выбирали компанию, которая умеет работать со старым фондом и газовым оборудованием. Самые большие сложности были с электрикой и сантехникой, так как квартира не видела серьезного ремонта более 60 лет.</p>
+                                    <p class="mt-4 text-lg text-white">Во всех финансовых аспектах компания шла нам навстречу. Следующий ремонт в квартире у родственников будем делать тоже с Прораб Невой. Рекомендую компанию!</p>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-auto">
+                        <div class="flex flex-col p-4 gap-6 border border-gray-light rounded-[28px] h-full">
+                            <div class="flex flex-col gap-2">
+                                <div class="flex gap-4" style="align-items: center;">
+                                    <img src="/assets/icons/commas.svg">
+                                    <div class="flex flex-col gap-2">
+                                        <p class="text-lg text-white font-bold">Ремонт квартиры, пл. Комсомольская</p>
+                                        <p class="text-lg text-gray">Анна Ковальская</p>
+                                    </div>
+                                </div>      
+                                <div class="grid grid-cols-[auto_140px] gap-2 items-start">
+                                    <div class="flex flex-col gap-4">
+                                        <p class="text-lg text-white">Мне понадобилась помощь профессионалов для ремонта и отделки новой квартиры, которая была в стадии бетонной коробки. Впечатлила работа менеджеров и экскурсия по законченным объектам.</p>
+                                    </div>
+                                    <div class="swiper-container w-full swiper-review-photo">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback2.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback2.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback2.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback2.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/feedback2.jpg" alt="Ремонт коттеджа" class="w-full rounded-[20px] h-[200px] object-cover">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="border bg-white border-white rounded-full flex items-center">
+                    <div class="bg-dark rounded-full px-8 py-5 text-white text-base shrink-0">
+                        Оставить отзыв
+                    </div>
+                    <div class="h-full w-full min-w-[32px]  flex items-center justify-center">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_45_250)">
+                                <path d="M7.5 3.75L13.75 10L7.5 16.25" stroke="#7B6B38" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_45_250">
+                                    <rect width="20" height="20" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-20">
+    <div class="container">
+        <div class="flex flex-col gap-10">
+            <div class="flex items-center justify-between">
+                <h2 class="text-title text-dark font-bold">Контакты</h2>
+            </div>
+            <div class="grid grid-cols-[2fr,1fr] gap-6 items-start">
+                    <div class="flex flex-col gap-8">
+                        <div class="grid grid-cols-2 pt-6 gap-6">
+                            <div class="flex flex-col gap-4 text-dark">
+                                <p class="text-xxl font-bold">Наши телефоны</p>
+                                <p class="text-lg">+7 (908) 501-40-05</p>
+                                <p class="text-lg">+7 (988) 510-33-33</p>
+                            </div>
+                            <div class="flex flex-col gap-4 text-dark">
+                                <p class="text-xxl font-bold">Режим работы</p>
+                                <p class="text-lg">пн-пт: 9:00-19:00</p>
+                                <p class="text-lg">сб-вс: выходной</p>
+                            </div>
+                            <div class="flex flex-col gap-4 text-dark">
+                                <p class="text-xxl font-bold">Адрес</p>
+                                <p class="text-lg">ул. Комсомольская 131 АК 1</p>
+                                <p class="text-lg">офис 000</p>
+                            </div>
+                            <div class="flex flex-col gap-4 text-dark">
+                                <p class="text-xxl font-bold">Социальные сети</p>
+                                <div class="flex gap-4">
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#7B6B38"/>
+                                        <g clip-path="url(#clip0_49_533)">
+                                            <path d="M19.5 24.6439L27.9619 32.0624C28.0593 32.1484 28.1775 32.2076 28.3047 32.2341C28.432 32.2607 28.5639 32.2537 28.6877 32.2139C28.8114 32.1742 28.9227 32.1029 29.0106 32.0071C29.0985 31.9113 29.16 31.7944 29.1891 31.6677L33 15.1143C33.0037 15.0977 33.0029 15.0804 32.9975 15.0642C32.9921 15.0481 32.9825 15.0337 32.9696 15.0226C32.9567 15.0115 32.941 15.0042 32.9242 15.0013C32.9074 14.9985 32.8902 15.0002 32.8744 15.0064L13.875 22.4418C13.7571 22.4871 13.657 22.5696 13.5899 22.6767C13.5228 22.7838 13.4922 22.9097 13.5028 23.0357C13.5133 23.1616 13.5645 23.2807 13.6485 23.3751C13.7325 23.4695 13.8449 23.5341 13.9687 23.5593L19.5 24.6439Z" stroke="#7B6B38" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M19.5 24.6444L32.9447 15.0088" stroke="#7B6B38" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M23.6597 28.2923L20.79 31.2698C20.6863 31.3774 20.5528 31.4516 20.4067 31.4828C20.2606 31.514 20.1085 31.5009 19.9699 31.4451C19.8313 31.3893 19.7125 31.2934 19.6288 31.1696C19.5451 31.0458 19.5002 30.8999 19.5 30.7505V24.6445" stroke="#7B6B38" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_49_533">
+                                                <rect width="24" height="24" fill="white" transform="translate(12 12)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#7B6B38"/>
+                                        <g clip-path="url(#clip0_49_543)">
+                                            <path d="M18.75 21.75C18.75 20.9544 19.0661 20.1913 19.6287 19.6287C20.1913 19.0661 20.9544 18.75 21.75 18.75L23.25 21.75L22.095 23.4816C22.5532 24.5763 23.4237 25.4468 24.5184 25.905L26.25 24.75L29.25 26.25C29.25 27.0456 28.9339 27.8087 28.3713 28.3713C27.8087 28.9339 27.0456 29.25 26.25 29.25C24.2609 29.25 22.3532 28.4598 20.9467 27.0533C19.5402 25.6468 18.75 23.7391 18.75 21.75Z" stroke="#7B6B38" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M19.4934 31.7914C21.3839 32.8856 23.6078 33.2549 25.7505 32.8304C27.8931 32.406 29.8083 31.2168 31.1389 29.4846C32.4696 27.7524 33.1248 25.5954 32.9825 23.4157C32.8403 21.2361 31.9102 19.1825 30.3656 17.638C28.8211 16.0935 26.7676 15.1634 24.5879 15.0211C22.4083 14.8788 20.2513 15.534 18.519 16.8647C16.7868 18.1953 15.5976 20.1105 15.1732 22.2531C14.7488 24.3958 15.118 26.6197 16.2122 28.5102L15.0394 32.0118C14.9953 32.1439 14.9889 32.2857 15.0209 32.4213C15.0529 32.5569 15.122 32.6809 15.2205 32.7794C15.319 32.8779 15.443 32.947 15.5786 32.979C15.7142 33.011 15.856 33.0046 15.9881 32.9605L19.4934 31.7914Z" stroke="#7B6B38" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_49_543">
+                                                <rect width="24" height="24" fill="white" transform="translate(12 12)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    <img src="/assets/images/map.png" class="rounded-[36px] h-[284px] w-full object-cover">
+                </div>
+                <form action="" class="flex flex-col bg-dark rounded-[36px] gap-8 p-6">
+                    <div class="flex flex-col gap-6">
+                        <p class="text-subtitle text-white font-bold">Остались вопросы?</p>
+                        <p class="text-white">Оставьте заявку и мы свяжемся с вами в ближайшее время. Наш специалист проконсультирует вас.</p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <input type="text" id="first" name="name" 
+                            placeholder="Ваше имя" 
+                            class="block w-full text-gray bg-transparent text-left py-4 px-8 border border-gray rounded-full" required>
+                        <input type="tel" id="number" name="number" 
+                            placeholder="Ваш номер телефона" 
+                            class="block w-full text-gray bg-transparent text-left py-4 px-8 border border-gray rounded-full" required> 
+                        <textarea id="comment" name="comment" 
+                            placeholder="Комментарий" 
+                            class="block w-full h-[89px] text-gray bg-transparent text-left py-4 px-8 border border-gray rounded-[30px] resize-none" 
+                            required></textarea>
+                    </div>
+                    <div class="flex flex-col gap-8">
+                        <div class="flex gap-4 items-center">
+                            <input type="checkbox" id="agreement" value="agreement" name="agreement" 
+                            class="appearance-none w-5 h-5 bg-transparent border border-gray-400 rounded-sm 
+                            checked:bg-secondary checked:border-secondary
+                            focus:ring-2 focus:ring-secondary focus:ring-offset-2
+                            relative cursor-pointer">
+                            <p class="text-gray text-left" for="agreement">Я согласен с обработкой моих персональных данных.<br>Пользовательское соглашение</p>
+                        </div>
+                        <div class="flex justify-start">
+                            <div class="border bg-white border-white rounded-full flex items-center">
+                                <div class="bg-dark rounded-full px-8 py-5 text-white text-base shrink-0">
+                                    Отправить
+                                </div>
+                                <div class="h-full w-full min-w-[32px]  flex items-center justify-center">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_45_250)">
+                                            <path d="M7.5 3.75L13.75 10L7.5 16.25" stroke="#7B6B38" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_45_250">
+                                                <rect width="20" height="20" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/swiper/swiper-bundle.min.js"></script>
+<script src="assets/fancybox/fancybox.umd.js"></script>
+<script src="assets/js/common.js"></script>
+</body>
+</html>

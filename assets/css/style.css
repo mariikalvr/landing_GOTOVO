@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "SFProDisplayRegular";
+    src: url("../fonts/San-Francisco-Pro-Display/SF-Pro-Display-Regular.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: "SFProDisplayRegular", sans-serif;
+}
+
+.btn-animate {
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    transition: background-size .8s ease-in-out;
+}
+
+.btn-animate:hover {
+    background-position: 0% 50%;
+    background-size: 100% 100%;
+}
+
+.advantage-card {
+    clip-path: url(#theClippingPathAdvantage);
+}
+
+.advantage-card__small {
+    clip-path: url(#theClippingPathAdvantageSmall);
+}
+
+.advantage-card__vertical {
+    clip-path: url(#theClippingPathAdvantageVertical);
+}
+
+.advantage-bg {
+    clip-path: url(#theClippingPathAdvantageBg);
+}
+
+.advantage-bg__sm {
+    clip-path: url(#theClippingPathAdvantageBgSm);
+}
+
+.service-bg {
+    clip-path: url(#theClippingPathService);
+}
+
+.stages-img {
+    clip-path: url(#theClippingPathStages);
+}
+
+.img-works {
+    clip-path: url(#theClippingPathWorks);
+}
+.swiper-review-photo {
+    position: relative;
+    padding-bottom: 30px; 
+}
+
+.swiper-review-photo .swiper-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 20px; 
+}
+
+.swiper-review-photo .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px; 
+    background: #EDF0F780 !important;
+    border-radius: 20px;
+    opacity: 1 !important;
+    transition: all 0.2s ease;
+    margin: 0 !important;
+}
+
+.swiper-review-photo .swiper-pagination-bullet-active {
+    background: #CBCED4 !important; 
+    width: 32px;
+    height: 2px; 
+    transform: none;
+}
