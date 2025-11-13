@@ -85,3 +85,37 @@ body {
     height: 2px; 
     transform: none;
 }
+
+
+.animated-btn{
+    flex-shrink: 0;
+    transition: background-size 1000ms ;
+    background-image: linear-gradient(to right, #1F201A, #1F201A);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position: 0% 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.animated-btn:hover {
+    background-size: 100% 100%; 
+}
+.btn-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 10;
+}
+.btn-icon svg g path {
+    stroke: #1F201A;
+    transition-delay: 400ms;
+    transition: 800ms;
+}
+.animated-btn:hover .btn-icon svg g path {
+    stroke: white;
+    transition: 800ms;
+}
+
